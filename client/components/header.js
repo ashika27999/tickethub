@@ -20,9 +20,9 @@ const header = ({ currentUser }) => {
     });
 
   return (
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-light" style={{"backgroundColor": "#e3f2fd" }}>
       <Link href="/">
-        <a className="navbar-brand">GitTix</a>
+        <a className="navbar-brand">TicketHub</a>
       </Link>
 
       <div className="d-flex justify-content-end">
